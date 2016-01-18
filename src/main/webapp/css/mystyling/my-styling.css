@@ -1,0 +1,8 @@
+@import "compass";
+@import "mixins";
+@import url(../my-variables.css);
+
+#content {
+	color: $badyellow;
+	background-color: $badblue;
+}
