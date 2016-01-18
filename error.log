@@ -1,0 +1,136 @@
+Sass::SyntaxError: Undefined variable: "$badyellow".
+          _perform at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/script/variable.rb:49
+           perform at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/script/node.rb:40
+        visit_prop at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298
+              send at org/jruby/RubyKernel.java:2097
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53
+           collect at org/jruby/RubyArray.java:2318
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109
+  with_environment at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37
+        visit_rule at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320
+              send at org/jruby/RubyKernel.java:2097
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53
+           collect at org/jruby/RubyArray.java:2318
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109
+  with_environment at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121
+    visit_children at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37
+        visit_root at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128
+              send at org/jruby/RubyKernel.java:2097
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100
+              send at org/jruby/RubyKernel.java:2097
+             visit at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7
+            render at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20
+           _render at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/engine.rb:315
+            render at /opt/liferay-6.2/liferay-portal-6.2-ee-sp14/tomcat-7.0.62/temp/liferay/ruby/gems/sass-3.2.12/lib/sass/engine.rb:262
+            (root) at <script>:48
+13:38:11,421 ERROR [http-bio-8080-exec-7][DynamicCSSFilter:182] Unable to parse SASS on CSS /css/mystyling/my-styling.css
+com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Undefined variable: "$badyellow".
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:254)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:129)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil._parseSass(DynamicCSSUtil.java:509)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil.parseSass(DynamicCSSUtil.java:178)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.getDynamicContent(DynamicCSSFilter.java:147)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.processFilter(DynamicCSSFilter.java:209)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor415.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy713.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.aggregate.AggregateFilter.processFilter(AggregateFilter.java:518)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor415.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy713.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor415.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy713.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.cache.CacheFilter.processFilter(CacheFilter.java:432)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor415.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy713.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Undefined variable: "$badyellow".
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:188)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:248)
+	... 82 more
+Caused by: org.jruby.embed.EvalFailedException: (SyntaxError) Undefined variable: "$badyellow".
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.doEval(RubyExecutor.java:189)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:332)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	... 1 more
+Caused by: org.jruby.exceptions.RaiseException: (SyntaxError) Undefined variable: "$badyellow".
+
